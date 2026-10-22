@@ -1,0 +1,49 @@
+{
+  "notice": "All records in this file are fictional test fixtures created to demonstrate rule-based matching. They are not real products, official labels, or treatment recommendations.",
+  "references": {
+    "DEMO-REF-001": {
+      "id": "DEMO-REF-001",
+      "title": "Fictional tomato test record 001",
+      "source": "AgroGuard AI invented demonstration data",
+      "note": "Synthetic record for testing software logic only. Not an agricultural source."
+    },
+    "DEMO-REF-002": {
+      "id": "DEMO-REF-002",
+      "title": "Fictional tomato test record 002",
+      "source": "AgroGuard AI invented demonstration data",
+      "note": "Synthetic record for testing software logic only. Not an agricultural source."
+    },
+    "DEMO-REF-003": {
+      "id": "DEMO-REF-003",
+      "title": "Fictional tomato test record 003",
+      "source": "AgroGuard AI invented demonstration data",
+      "note": "Synthetic record for testing software logic only. Not an agricultural source."
+    }
+  },
+  "records": [
+    {
+      "product_id": "DEMO-TOMATO-01",
+      "crop": "tomato",
+      "target_problem": "early_blight",
+      "target_problem_label": "possible early blight",
+      "example_stages": ["vegetative"],
+      "reference_id": "DEMO-REF-001"
+    },
+    {
+      "product_id": "DEMO-TOMATO-02",
+      "crop": "tomato",
+      "target_problem": "aphids",
+      "target_problem_label": "possible aphids",
+      "example_stages": ["vegetative", "flowering"],
+      "reference_id": "DEMO-REF-002"
+    },
+    {
+      "product_id": "DEMO-TOMATO-03",
+      "crop": "tomato",
+      "target_problem": "powdery_mildew",
+      "target_problem_label": "possible powdery mildew",
+      "example_stages": ["fruiting"],
+      "reference_id": "DEMO-REF-003"
+    }
+  ]
+}
